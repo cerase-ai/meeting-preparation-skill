@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "namespace": "studio.guidance",
+  "name": "meeting-preparation",
+  "type": "skill",
+  "display_name": "Meeting preparation",
+  "description": "Use when the person asks to prepare a meeting or a call, to be briefed before one, or to know what to bring to it. It finds the event in the calendar and reads its invitation (time, place or video link, attendees, agenda, linked documents), the past mail exchanged with its attendees and on its subject, the earlier meetings with them and the open tasks on the board, and writes one preparation note: who attends, what the meeting is for, what happened so far with its dates, what is still open and with whom, what to bring or decide, and the questions worth asking. It only reads: nothing is sent, created or changed.",
+  "license": "MIT"
+}

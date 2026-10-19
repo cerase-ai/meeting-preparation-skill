@@ -1,0 +1,9 @@
+# Registry display text in the platform's other locales.
+#
+# The base fields -- SKILL.md's `description` and cerase.json's -- are the SOURCE
+# locale and are English; package_translations forbids a row for it, so this file
+# can only ever hold the others. It is registry metadata: the seeder keeps it out
+# of the bundle that ships to the agent.
+it:
+  display_name: "Preparazione delle riunioni"
+  description: "Usa quando la persona chiede di preparare una riunione o una call, di essere aggiornata prima di una, o di sapere cosa portarci. Trova l'evento nel calendario e ne legge l'invito (orario, luogo o link video, partecipanti, ordine del giorno, documenti collegati), la posta scambiata con i partecipanti e sul suo argomento, le riunioni precedenti con loro e le attività aperte, e scrive una sola nota di preparazione: chi partecipa, a cosa serve la riunione, cosa è successo finora con le date, cosa resta aperto e con chi, cosa portare o decidere, e le domande da fare. Legge soltanto: non invia, non crea e non cambia nulla."
